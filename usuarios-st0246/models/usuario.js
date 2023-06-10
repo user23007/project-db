@@ -33,7 +33,6 @@ module.exports = {
         return new Promise((resolve, reject) => {
             conexion.query(`update usuarios
             set nombre = ?,
-            precio = ?,
             email = ?,
             genero = ?
             where id = ?`,
